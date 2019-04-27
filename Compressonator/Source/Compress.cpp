@@ -47,12 +47,15 @@ CodecType GetCodecType(CMP_FORMAT format)
         case CMP_FORMAT_RG_8:                    return CT_None;
         case CMP_FORMAT_R_8:                     return CT_None;
         case CMP_FORMAT_ARGB_16:                 return CT_None;
+		case CMP_FORMAT_RGBA_16:                 return CT_None;
         case CMP_FORMAT_RG_16:                   return CT_None;
         case CMP_FORMAT_R_16:                    return CT_None;
         case CMP_FORMAT_ARGB_16F:                return CT_None;
+		case CMP_FORMAT_RGBA_16F:                return CT_None;
         case CMP_FORMAT_RG_16F:                  return CT_None;
         case CMP_FORMAT_R_16F:                   return CT_None;
         case CMP_FORMAT_ARGB_32F:                return CT_None;
+		case CMP_FORMAT_RGBA_32F:                return CT_None;
         case CMP_FORMAT_RG_32F:                  return CT_None;
         case CMP_FORMAT_R_32F:                   return CT_None;
         case CMP_FORMAT_RGBE_32F:                return CT_None;
